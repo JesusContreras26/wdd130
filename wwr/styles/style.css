@@ -241,6 +241,54 @@ nav {
     transform: scale(1.1);
 }
 
+.rivers-title{
+    color: #D57A20;
+    font-family: "Permanent Marker", "Rock Salt", Arial;
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.salmon-river{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.rivers-heading{
+    font-family: "Permanent Marker", "Rock Salt", Arial;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.rivers-image{
+    grid-column: 1/2;
+    grid-row: 2/3
+    
+}
+
+.rivers-paragraph{
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.desolation-river{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.canyon-river{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
