@@ -250,7 +250,7 @@ nav {
 }
 
 
-.salmon-river{
+.rivers {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -278,19 +278,19 @@ nav {
     text-justify: inter-word;
 }
 
-.desolation-river{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
 
-}
-
-.canyon-river{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
 
 
 @media screen and (max-width: 900px) {
+
+    .rivers {
+        display: block;
+    }
+
+    .rivers-heading {
+        display: block;
+    }
+
     #hero, .home-grid {
         display: block;
         height: auto;
