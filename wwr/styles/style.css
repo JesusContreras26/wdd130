@@ -291,6 +291,10 @@ nav {
         display: block;
     }
 
+    .rivers-image {
+        width: 100%;
+    }
+
     #hero, .home-grid {
         display: block;
         height: auto;
