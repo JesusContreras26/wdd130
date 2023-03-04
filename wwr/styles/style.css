@@ -273,11 +273,13 @@ nav {
 }
 
 .rivers-paragraph{
+    width: 100%;
     display: flex;
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: justify;
     text-justify: inter-word;
+    
 }
 
 
