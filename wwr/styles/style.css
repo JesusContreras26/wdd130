@@ -273,7 +273,7 @@ nav {
 }
 
 .rivers-paragraph{
-    width: 100%;
+    width: 90%;
     display: flex;
     grid-column: 2/3;
     grid-row: 2/3;
