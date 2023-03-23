@@ -365,6 +365,45 @@ button {
     margin-top: 3em;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -80px;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.button-component {
+    margin-left: -1px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #2D1B74;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-size: 18px;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
 
 @media screen and (max-width: 900px) {
 
