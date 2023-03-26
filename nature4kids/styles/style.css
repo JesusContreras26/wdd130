@@ -6,7 +6,6 @@
 }
 
 header {
-    width: 100%;
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #A4C100;
@@ -155,7 +154,6 @@ h2 {
 }
 
 footer{
-    width: 1600px;
     margin: 0 auto;
     padding: 25px 50px;
     margin-top: 200px;
@@ -168,6 +166,9 @@ footer{
 body {
     font-family: "Nunito", "Work Sans" , sans-serif;
     background-color: #0077C5;
+    margin: 0;
+    padding: 0;
+
     
 }
 
