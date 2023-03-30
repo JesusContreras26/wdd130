@@ -283,6 +283,34 @@ footer p {
 
 }
 
+#conserve-tittle{
+    font-size: 2.5em;
+    color: #F3A001;
+    margin: 50px 50px;
+    text-align: center;
+    font-family: "Shantell Sans";
+    text-shadow: 5px 5px 3px #6f7364;
+}
+
+#conserve-mssg{
+    text-justify: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    line-height: 35px;
+    font-size: 1.4em;
+    color: azure;
+    
+}
+
+.conserve-img{
+    width: 30%;
+    margin-left: 1.5%;
+    border-radius: 5px;
+    border: 10px solid #F3A001;
+    margin-top: 5%;
+}
+
 
 
 
